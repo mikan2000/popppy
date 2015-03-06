@@ -9,6 +9,7 @@ description:
 author: mikan2000
 email: lsmxinjing@gmail.com
 language: zh-CN
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -23,6 +24,12 @@ code_dir: downloads/code
 # Directory
 source_dir: source
 public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
