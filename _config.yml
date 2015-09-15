@@ -6,7 +6,7 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
+author: mikan
 language:
 timezone:
 
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -72,6 +72,9 @@ theme: landscape
 #   repo: git@gitcafe.com:mikan/mikan.git
 #   branch: gitcafe-pages
 deploy:
-  type: git
+- type: git
   repo: git@github.com:mikan2000/mikan2000.github.io.git
   branch: master
+- type: git
+  repo: git@gitcafe.com:mikan/mikan.git
+  branch: gitcafe-pages
