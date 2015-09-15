@@ -100,7 +100,6 @@ exclude_generator:
 
 deploy:
 	type: git
-	message: ""
-	repo: 
-		github: git@github.com:mikan2000/mikan2000.github.io.git,master
-		gitcafe: git@gitcafe.com:mikan/mikan.git,gitcafe-pages
+	repo: git@gitcafe.com:mikan/mikan.git
+	branch: gitcafe-pages
+	# github: git@github.com:mikan2000/mikan2000.github.io.git,master
