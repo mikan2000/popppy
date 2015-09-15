@@ -103,4 +103,4 @@ deploy:
 	message: ""
 	repo: 
 		github: git@github.com:mikan2000/mikan2000.github.io.git,master
-		gitcafe: git@gitcafe.com:mikan/mikan.git,gitcafe-pages
+		gitcafe: https://gitcafe.com/mikan/mikan.git,gitcafe-pages
