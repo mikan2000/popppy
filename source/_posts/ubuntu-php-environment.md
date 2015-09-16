@@ -33,7 +33,7 @@ server {
         index index.php;
 
         # Make site accessible from http://localhost/
-        server_name www.example.com example.com 121.43.159.99;
+        server_name www.example.com example.com;
 
 	if ($host = 'example.com' ) {
 		rewrite ^/(.*)$ http://www.example.com/$1 permanent;
